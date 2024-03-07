@@ -12,16 +12,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.security.Principal;
 
-@Getter
-@Setter
-@NoArgsConstructor
-class InfoResponse {
-    String info;
-    public InfoResponse(String info) {
-        this.info = info;
-    }
-}
-
 @RestController
 @RequestMapping("/api/demo")
 public class     DemoController {
