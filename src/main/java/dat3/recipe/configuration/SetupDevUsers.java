@@ -1,11 +1,11 @@
-package dat3.security_demo.configuration;
+package dat3.recipe.configuration;
 
 import dat3.security.entity.Role;
 import dat3.security.entity.UserWithRoles;
 import dat3.security.repository.RoleRepository;
 import dat3.security.repository.UserWithRolesRepository;
-import dat3.security_demo.entity.SpecialUser;
-import dat3.security_demo.repository.SpecialUserRepository;
+import dat3.recipe.entity.SpecialUser;
+import dat3.recipe.repository.SpecialUserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;

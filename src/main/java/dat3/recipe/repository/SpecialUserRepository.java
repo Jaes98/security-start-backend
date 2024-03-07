@@ -1,6 +1,6 @@
-package dat3.security_demo.repository;
+package dat3.recipe.repository;
 
-import dat3.security_demo.entity.SpecialUser;
+import dat3.recipe.entity.SpecialUser;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SpecialUserRepository extends JpaRepository<SpecialUser, String> {

@@ -1,4 +1,4 @@
-package dat3.security_demo.api;
+package dat3.recipe.api;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

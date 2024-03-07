@@ -1,4 +1,4 @@
-package dat3.security_demo.entity;
+package dat3.recipe.entity;
 
 import dat3.security.entity.UserWithRoles;
 import jakarta.persistence.Entity;
