@@ -1,6 +1,6 @@
 
 -- CREATE DATABASE IF NOT EXISTS recipes;
-USE recipes;
+USE recipedb;
 
 INSERT INTO categories (name, created, edited) VALUES ('Vegetar',NOW(),NOW());
 INSERT INTO categories (name, created, edited) VALUES ('Høne',NOW(),NOW());
